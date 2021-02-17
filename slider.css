@@ -149,7 +149,7 @@
   }
 }
 
-@media (max-width:1200px){
+@media (max-width:100%){
   .img-slider{
     width: 1200px;
     height: 200px;
@@ -164,7 +164,7 @@
   }
 
   .img-slider .slide .info p{
-    width: 90%;
+    width: 100%;
     font-size: 11px;
   }
 
