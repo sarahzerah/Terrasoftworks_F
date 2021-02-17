@@ -149,7 +149,7 @@
   }
 }
 
-@media (max-width: 420px){
+@media (max-width: 600px){
   .img-slider{
     width: 320px;
     height: 200px;
