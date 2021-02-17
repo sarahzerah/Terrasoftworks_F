@@ -61,7 +61,7 @@
   /* color: #fff; */
   /* background: rgba(0, 0, 0, 0.1); */
   /* font-size: 16px; */
-  width: 60%;
+  width: 100%;
   padding: 10px;
   border-radius: 4px;
 }
@@ -121,7 +121,7 @@
 
 @media (max-width: 620px){
   .img-slider{
-    width: 400px;
+    width: 1200px;
     height: 250px;
   }
 
@@ -149,9 +149,9 @@
   }
 }
 
-@media (max-width: 600px){
+@media (max-width:1200px){
   .img-slider{
-    width: 320px;
+    width: 1200px;
     height: 200px;
   }
 
