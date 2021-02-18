@@ -467,12 +467,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #66039A;
+  /* font-size: 32px; */
 }
 
 #hero h2 {
   color: #555555;
   margin: 5px 0 30px 0;
-  font-size: 38px;
+  font-size: 48px;
   font-weight: 400;
 }
 
@@ -1769,3 +1770,57 @@ section {
   }
 }
 
+    .mySlides {
+        display: none
+      }
+  .slideshow-container {
+        max-width: 2500px;
+        position: relative;
+        /* margin: auto; */
+        height: 75vh;
+      }
+
+      /* Caption text */
+      .text {
+        color: #ffffff;
+        font-size: 48px;
+        /* padding: 8px 12px; */
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: left;
+        margin-left: 30px;
+      }
+
+
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .prev,
+        .next,
+        .text {
+          font-size: 11px
+        }
+      }
