@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
+  font-family: "muli",muli;
 }
 
 #header .logo a {
@@ -438,6 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 75vh;
+  background: url("../img/slider2.jpg") top left;
   background-size: cover;
   position: relative;
 }
@@ -467,13 +468,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #66039A;
-  /* font-size: 32px; */
 }
 
 #hero h2 {
   color: #555555;
   margin: 5px 0 30px 0;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 400;
 }
 
@@ -527,20 +527,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 768px) {
   #hero {
     height: 100vh;
   }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-
   }
   #hero h2 {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 30px;
-    /* animation: none; */
   }
   #hero .btn-get-started, #hero .btn-watch-video {
     font-size: 10px;
@@ -782,7 +780,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "muli", muli;
   color: #222222;
 }
 
@@ -1311,7 +1309,7 @@ section {
   font-size: 36px;
   color: #66039a;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "muli", muli;
   margin-bottom: 20px;
 }
 
@@ -1367,7 +1365,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "muli", muli;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1415,7 +1413,7 @@ section {
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #7A518F;
+  font-family: muli;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
@@ -1479,7 +1477,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #777777;
+  color: #66039a;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1532,7 +1530,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #66039a;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1678,7 +1676,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "muli", muli;
   color: #777777;
 }
 
@@ -1770,57 +1768,3 @@ section {
   }
 }
 
-    .mySlides {
-        display: none
-      }
-  .slideshow-container {
-        max-width: 2500px;
-        position: relative;
-        /* margin: auto; */
-        height: 75vh;
-      }
-
-      /* Caption text */
-      .text {
-        color: #ffffff;
-        font-size: 48px;
-        /* padding: 8px 12px; */
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: left;
-        margin-left: 30px;
-      }
-
-
-      /* Fading animation */
-      .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
-      @-webkit-keyframes fade {
-        from {
-          opacity: .4
-        }
-        to {
-          opacity: 1
-        }
-      }
-      @keyframes fade {
-        from {
-          opacity: .4
-        }
-        to {
-          opacity: 1
-        }
-      }
-      /* On smaller screens, decrease text size */
-      @media only screen and (max-width: 300px) {
-        .prev,
-        .next,
-        .text {
-          font-size: 11px
-        }
-      }
